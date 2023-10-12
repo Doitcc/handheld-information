@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="freemarker-demo" />
+        <module name="handheld-information-search" />
+        <module name="minio-demo" />
+        <module name="handheld-information-behavior" />
+        <module name="handheld-information-common" />
+        <module name="handheld-information-wemedia" />
+        <module name="tess4j-demo" />
+        <module name="kafka-demo" />
+        <module name="handheld-information-app-gateway" />
+        <module name="xxljob-demo" />
+        <module name="handheld-information-feign-api" />
+        <module name="handheld-information-wemedia-gateway" />
+        <module name="es-init" />
+        <module name="handheld-information-utils" />
+        <module name="handheld-information-comment" />
+        <module name="handheld-information-schedule" />
+        <module name="handheld-information-article" />
+        <module name="mongo-demo" />
+        <module name="handheld-information-model" />
+        <module name="handheld-information-user" />
+        <module name="cx-file-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="heima-leadnews-apis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cx-file-starter" options="-parameters" />
+      <module name="es-init" options="-parameters" />
+      <module name="freemarker-demo" options="-parameters" />
+      <module name="handheld-information" options="-parameters" />
+      <module name="handheld-information-app-gateway" options="-parameters" />
+      <module name="handheld-information-article" options="-parameters" />
+      <module name="handheld-information-basic" options="-parameters" />
+      <module name="handheld-information-behavior" options="-parameters" />
+      <module name="handheld-information-comment" options="-parameters" />
+      <module name="handheld-information-common" options="-parameters" />
+      <module name="handheld-information-feign-api" options="-parameters" />
+      <module name="handheld-information-gateway" options="-parameters" />
+      <module name="handheld-information-model" options="-parameters" />
+      <module name="handheld-information-schedule" options="-parameters" />
+      <module name="handheld-information-search" options="-parameters" />
+      <module name="handheld-information-service" options="-parameters" />
+      <module name="handheld-information-test" options="-parameters" />
+      <module name="handheld-information-user" options="-parameters" />
+      <module name="handheld-information-utils" options="-parameters" />
+      <module name="handheld-information-wemedia" options="-parameters" />
+      <module name="handheld-information-wemedia-gateway" options="-parameters" />
+      <module name="heima-leadnews-apis" options="-parameters" />
+      <module name="kafka-demo" options="-parameters" />
+      <module name="minio-demo" options="" />
+      <module name="mongo-demo" options="" />
+      <module name="tess4j-demo" options="" />
+      <module name="xxljob-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
